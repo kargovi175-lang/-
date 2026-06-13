@@ -6,11 +6,14 @@ namespace FirstApplication.ConsoleApp
     {
         static void Main(string[] args)
         {
-            string MyName;
-            MyName = "Art";
+            const string MyName = "ART";
             Console.WriteLine(MyName);
 
-
+            Console.WriteLine("\t Привет мир");
+            Console.WriteLine("\t Мне 22 лет");
+            Console.WriteLine("\t MyName name is \n Jane");
+            Console.ReadKey();
         }
     }
+
 }
